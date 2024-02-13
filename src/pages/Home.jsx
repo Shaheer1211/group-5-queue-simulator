@@ -12,10 +12,16 @@ function Home() {
           </p>
           <Link
             to={"/simulator"}
-            class="bg-white text-blue-500 font-semibold px-6 py-3 rounded-full hover:bg-blue-100 transition duration-300"
+            class="bg-white text-blue-500 font-semibold px-6 py-3 rounded-full hover:bg-blue-100 transition duration-300 mx-1"
           >
             Start Simulator
           </Link>
+          <a
+            class="bg-white text-blue-500 font-semibold px-6 py-3 rounded-full hover:bg-blue-100 transition duration-300 mx-1"
+            href="https://group5-cal.netlify.app"
+          >
+            Start Queue Calculator
+          </a>
         </div>
       </section>
 
